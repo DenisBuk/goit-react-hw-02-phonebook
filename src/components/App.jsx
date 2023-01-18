@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { nanoid } from "nanoid";
 
 import ContactForm from "../components/ContactForm";
-import Filter from "./components/Filter";
+import Filter from "./Filter/index.js";
 import ContactsList from "./ContactList";
 import Container from "../components/Container";
 

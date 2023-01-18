@@ -19,7 +19,7 @@ Button.propTypes = {
     options: PropTypes.shape({
         type: PropTypes.string.isRequired,
         text: PropTypes.string.isRequired,
-        onClick: PropTypes.string.func,
-        disabled: PropTypes.string.bool,
+        onClick: PropTypes.func,
+        disabled: PropTypes.bool,
     }),
 };
