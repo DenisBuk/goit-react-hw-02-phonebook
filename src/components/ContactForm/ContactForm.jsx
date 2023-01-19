@@ -17,7 +17,7 @@ class ContactForm extends Component {
     onBtnClick = (evt) => {
         evt.preventDefault();
         const { name, number } = this.state;
-        this.props.aadContact(name, number);
+        this.props.addContact(name, number);
         this.setState({
             name: "",
             number: "",
